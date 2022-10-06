@@ -20,6 +20,7 @@ public class NewTest {
 		driver.findElement(By.id("login")).click();
 		String actualTitle= driver.getTitle();
 		Assert.assertEquals("Adactin.com - Search Hotel", actualTitle);
+	  	System.out.println("Hello changes made from github");
   }
   @BeforeTest
   public void beforeTest() {
